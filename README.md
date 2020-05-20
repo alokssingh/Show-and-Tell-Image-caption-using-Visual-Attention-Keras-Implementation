@@ -1,8 +1,14 @@
 # Show-and-Tell-Image-caption-using-Visual-Attention-Keras-Implementation
 This repository contations the keras implementation of Show and Tell Visual Attention visual attnetion for image captioning,
 
+More Examples will be uploaded soon
 
-################################################Citation#########################################################################
+#Requirements
+
+#Keras 2.3.1
+
+#Tensorflow 1.15.2
+################################################Citation########################################################################
 #             This implementation is not tested till now but if you found any modification I am always ready for changes        #
 #                contact me at alok.rawat478@gmail.com                                                                          #
 #                https://alokssingh.github.io/                                                                                  #
