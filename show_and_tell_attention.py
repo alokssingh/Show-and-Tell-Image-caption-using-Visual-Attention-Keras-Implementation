@@ -134,13 +134,11 @@ class Attentioncell(Layer):
 
         if self.stateful:
             initial_states = self.states
-        elif initial_state is not None:
-            initial_states = initial_state
-            if not isinstance(initial_states, (list, tuple)):
-                initial_states = [initial_states]
         else:
-            initial_states = self.get_initial_states(static_x) 
-           # initial_states = self.get_initial_states(x)
+            if initial_state is not None:
+              initial_states = initial_state
+              if not isinstance(initial_states, (list, tuple)):
+                  initial_states = [initial_states]
 
         if mask is not None:
             mask = mask[0]
