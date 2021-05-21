@@ -293,16 +293,5 @@ class Attentioncell(Layer):
         base_config = super(Attentioncell, self).get_config()
         return dict(list(base_config.items()) + list(config.items()))
 ################################################Citation#########################################################################
-#             This implementation is not tested till now but if you found any modification I am always ready for changes        #
-#                contact me at alok.rawat478@gmail.com                                                                          #
-#                https://alokssingh.github.io/                                                                                  #
-#https://github.com/zimmerrol/keras-utility-layer-collection/blob/e0a888277ee0121b88c8541ff7642e4615a76ce1/kulc/attention.py#L38#
-#                                                                                                                               #
-#https://github.com/alokssingh/imcap_keras/blob/master/imcap/layers/lstm_sent.py                                                #
 #https://arxiv.org/pdf/1502.03044.pdfv                                                                                          #
-#                                                                                                                               #
-#                                                                                                                               #
-#                                                                                                                               #
-#                                                                                                                               #
-#                                                                                                                               #
 #################################################################################################################################
